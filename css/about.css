@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500;700&display=swap');
+
+/* variable */
+:root {
+    --font-color: #1E1E24;
+    --primary-color: #E54B4B;
+    --secondary-color: #444140;
+    --bg-color: #F7EBE8;
+    --theme-color: #FFA987;
+}
+
+body {
+    font-size: 18px;
+    color: var (--font-color);
+    font-family: 'Open Sans', sans-serif;
+    line-height: 1.5;
+
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Roboto', sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1170px;
+    margin: 0 auto;
+    padding: 0 15px;
+
+}
+
+ul,
+li {
+    list-style: none;
+    text-decoration: none;
+}
+
+a {
+    color: var(--font-color);
+    text-decoration: none;
+    transition: 0.5s;
+    /*smoothness o.5 sec late color change*/
+}
+
+a:hover {
+    border-bottom: 1px solid var(--primary-color);
+    /*border underline form*/
+    color: var(--primary-color);
+    padding-bottom: 5px;
+}
+
+.site-header {
+    border-bottom: 1px solid #ccc;
+}
+
+.main-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px 0;
+}
+
+.logo {
+    display: flex;
+    /*side by side logo and e-entrance*/
+    gap: 20px;
+    align-items: center;
+}
+
+.logo img {
+    width: 70px;
+}
+
+.nav-menu {
+    display: flex;
+    gap: 20px;
+}
+
+.button a {
+    background-color: var(--primary-color);
+    color: #fff;
+    padding: 8px 20px;
+    border-radius: 8px;
+    border: 1px solid var(--primary-color);
+    transition: 0.3s;
+}
+
+.button a:hover {
+    background-color: transparent;
+    color: var(--font-color);
+    border-color: var(--font-color);
+}
+
+.about1 {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding: 50px 0px;
+}
+
+.about2-image {
+    border-radius: 10px;
+    /* padding: 20px; */
+}
+
+.about1-image,
+.content {
+    flex: 1;
+}
+
+.content p {
+    text-align: justify;
+}
+
+.icons-container {
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+}
+
+.icons {
+    background-color: rgb(219, 219, 219);
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.icons i {
+    font-weight: 900;
+    color: #187EB8;
+    font-size: 30px;
+    /* text-align: center; */
+}

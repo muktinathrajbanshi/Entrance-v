@@ -1,0 +1,45 @@
+h2 {
+    text-align: center;
+    padding: 20px;
+}
+
+li p {
+    border: 1px solid pink;
+    background-color: #fbd0d9;
+
+}
+
+#quiz {
+    background-color: white;
+    padding: 20px;
+    margin: 20px 0;
+    border: 2px solid #ddd;
+    border-radius: 5px;
+}
+
+h2 {
+    margin-top: 0;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+button {
+    font-size: 16px;
+    border: none;
+}
+
+.answer-symbol {
+    font-size: 24px;
+    margin-top: 10px;
+}
+
+.correct {
+    color: green;
+}
+
+.incorrect {
+    color: red;
+}
