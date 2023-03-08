@@ -52,7 +52,8 @@ if (isset($_POST['submit'])) {
 
         // execute the query and check if it was successful
         if (mysqli_query($conn, $sql)) {
-            header('location:login.php')
+header('location:login.php');
+
         } else {
             echo "Error: " . $sql . "<br>" . mysqli_error($conn);
         }

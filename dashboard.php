@@ -78,6 +78,7 @@ if(!isset($_SESSION['user_name'])){
 </head>
 <body>
 	<h1>Welcome to the Admin Panel Dashboard</h1>
+	<a href="logout.php">logout</a>
 	<h2>Summary</h2>
 	<p>Number of users in the system: <?php echo $userCount; ?></p>
 	<ul>
