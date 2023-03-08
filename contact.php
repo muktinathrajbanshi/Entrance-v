@@ -46,17 +46,23 @@
         </div>
     </div>
     <div class="form-container">
-        <form action="">
+        <form action="feedback.php" method="post">
             <h3>Give Your Feedback</h3>
-            <label for="">name</label>
-            <input type="text" placeholder="Enter your name" required>
-            <label for="">email</label>
-            <input type="email" placeholder="Enter your e-mail" required>
-            <label for="">phone number</label>
-            <input type="a" placeholder="Enter your phone number" required>
-            <label for="">Your Message</label>
-            <textarea name="" id="" cols="20" rows="8" placeholder=" Write your message"></textarea>
-            <input type="button" value="submit">
+            <label for="name">name</label>
+             <input type="text" name="name" id="name" placeholder="Enter your name" required>
+
+               <label for="email">email</label>
+             <input type="email" name="email" id="email" placeholder="Enter your e-mail" required>
+
+              <label for="phone">phone number</label>
+                <input type="text" name="phone" id="phone" placeholder="Enter your phone number" required>
+
+              <label for="message">Your Message</label>
+                <textarea name="message" id="message" cols="20" rows="8" placeholder=" Write your message"></textarea>
+
+
+                <input type="submit" name="submit" value="submit" class="form-btn">
+
         </form>
     </div>
     <!-- <footer>

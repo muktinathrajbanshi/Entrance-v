@@ -35,7 +35,7 @@
                 <option value="User">user</option>
                 <option value="Admin">admin</option>
             </select>
-            <input type="submit" name="submit" value="Register Now" class="form-btn">
+            <input type="submit" name="submit" value="Register Now">
             <p>Already have an account? <a href="login.php">Login</a></p>
         </form>
 
