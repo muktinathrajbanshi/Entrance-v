@@ -52,7 +52,7 @@ if (isset($_POST['submit'])) {
 
         // execute the query and check if it was successful
         if (mysqli_query($conn, $sql)) {
-            echo "Registration successful";
+            header('location:login.php')
         } else {
             echo "Error: " . $sql . "<br>" . mysqli_error($conn);
         }

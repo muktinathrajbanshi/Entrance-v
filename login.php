@@ -14,7 +14,7 @@
 
 	<div class="form-container">
 
-		<form action="dashboard.php" method="post">
+		<form action="login_handler.php" method="post">
 			<h3>E-entrance</h3>
 			<!-- <?php
       if(isset($error)){
